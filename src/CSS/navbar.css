@@ -1,0 +1,90 @@
+@media only screen and (max-width: 80rem) {
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: auto;
+        width: calc(100vw - 3.75rem);
+        height: 3.375rem;
+    }
+
+    .nav_list{
+        position: absolute;
+        display: none;
+    }
+
+    .burger_btn{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .burger_icon{
+        height: 1.5rem;
+        width: 1.5rem;
+        color: var(--text);
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: auto;
+        width: calc(100vw - 6.25rem);
+        height: 6.25rem;
+    }
+
+    .nav_list{
+        width: 37.9375rem;
+        position:initial;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    .nav_link{
+        text-decoration: none;
+        color: var(--text);
+        font-family: var(--font-family-work_sans);
+        font-weight: 600;
+    }
+
+    .nav_btn{
+        height: 3.75rem;
+        width: 9.5rem;
+        border-radius: 1.25rem;
+        border: none;
+        background-color: var(--call-to-action);
+    }
+
+    .nav_btn_link{
+        color: var(--text);
+        font-family: var(--font-family-work_sans);
+        font-size: var(--font-size-m);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .person_img{
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: 0.5rem;
+        margin-bottom:-0.2rem;
+    }
+    
+
+    .logo_img{
+        width: 15.1875rem;
+        height: 2rem;
+    }
+
+    .burger_btn{
+        display: none;
+    }
+}
+
