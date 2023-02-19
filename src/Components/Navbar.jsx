@@ -1,5 +1,7 @@
 import React from 'react'
 import "../CSS/navbar.css"
+import "../CSS/variables.css"
+
 // Importing logo from assets
 import logo from "../Assets/Images/nav_logo.svg"
 
