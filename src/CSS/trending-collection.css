@@ -1,0 +1,339 @@
+@media only screen and (max-width: 52.125rem) {
+    .collection_two,
+    .collection_three{
+        display: none;
+    }
+
+    .trending_collection{
+        height: 44.875rem;
+        width: calc(100vw - 3.75rem);
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .trending_collection_head{
+        padding: 2.5rem 0rem 2.5rem 0rem;
+        width: 19.6875rem;
+        height: 5.8125rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .trending_collection_title{
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+    }
+
+    .trending_collection_description{
+        line-height: 140%
+    }
+
+    .collection_one{
+        height: 31.5625rem;
+        margin-bottom: 3rem;
+    }
+
+    .collection_one_main_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .collection_one_nft_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .collection_one_list_img{
+        width: 5.9375rem;
+        height: 5.9375rem;
+    }
+
+    .collection_list_link{
+        text-decoration: none;
+    }
+
+    .collection_one_list_nums{
+        background-color: var(--call-to-action);
+        width: 5.9375rem;
+        height: 5.9375rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        font-family: var(--font-family-space_mono);
+        text-decoration: none;
+        color: white;
+    }
+
+    .collection_one_name{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .collection_one_artist{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .collection_one_artist_pfp{
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (min-width: 52.125rem) {
+    .collection_three{
+        display: none;
+    }
+
+    .trending_collection{
+        margin-top: 5.5rem;
+        height: 44.75rem;
+        width: calc(100vw - 3.75rem);
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .collections_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 43.125rem;
+    }
+
+    .trending_collection_head{
+        width: 43.125rem;
+        height: 4.4375rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .trending_collection_title{
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+    }
+
+    .trending_collection_description{
+        line-height: 140%
+    }
+
+    .collection_one,
+    .collection_two{
+        height: 31.5625rem;
+        margin-bottom: 3rem;
+    }
+
+    .collection_one_main_img,
+    .collection_two_main_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .collection_one_nft_list,
+    .collection_two_nft_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .collection_one_list_img,
+    .collection_two_list_img{
+        width: 5.9375rem;
+        height: 5.9375rem;
+    }
+
+    .collection_list_link{
+        text-decoration: none;
+    }
+
+    .collection_one_list_nums,
+    .collection_two_list_nums{
+        background-color: var(--call-to-action);
+        width: 5.9375rem;
+        height: 5.9375rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        font-family: var(--font-family-space_mono);
+        text-decoration: none;
+        color: white;
+    }
+
+    .collection_one_name,
+    .collection_two_name{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .collection_one_artist,
+    .collection_two_artist{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .collection_one_artist_pfp,
+    .collection_two_artist_pfp{
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+    .collection_three{
+        display: block;
+    }
+
+    .trending_collection{
+        margin-top: 5.5rem;
+        height: 44.75rem;
+        width: calc(100vw - 3.75rem);
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .collections_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 65.625rem;
+    }
+
+    .trending_collection_head{
+        width: 65.625rem;
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .trending_collection_title{
+        font-size: var(--font-size-xxl);
+        font-weight: 600;
+    }
+
+    .trending_collection_description{
+        line-height: 140%
+    }
+
+    .collection_one,
+    .collection_two,
+    .collection_three{
+        height: 31.5625rem;
+        margin-bottom: 3rem;
+    }
+
+    .collection_one_main_img,
+    .collection_two_main_img,
+    .collection_three_main_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .collection_one_nft_list,
+    .collection_two_nft_list,
+    .collection_three_nft_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .collection_one_list_img,
+    .collection_two_list_img,
+    .collection_three_list_img{
+        width: 5.9375rem;
+        height: 5.9375rem;
+    }
+
+    .collection_list_link,
+    .collection_main_link{
+        text-decoration: none;
+        transition: ease-in-out 0.2s;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .collection_list_link:hover,
+    .collection_main_link:hover{
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    .collection_one_list_nums,
+    .collection_two_list_nums,
+    .collection_three_list_nums{
+        background-color: var(--call-to-action);
+        width: 5.9375rem;
+        height: 5.9375rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        font-family: var(--font-family-space_mono);
+        text-decoration: none;
+        color: white;
+    }
+
+    .collection_one_name,
+    .collection_two_name,
+    .collection_three_name{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .collection_one_artist,
+    .collection_two_artist,
+    .collection_three_artist{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .collection_one_artist_pfp,
+    .collection_two_artist_pfp,
+    .collection_three_artist_pfp{
+        margin-right: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        transition: ease-in-out 0.2s;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .collection_one_artist_pfp:hover,
+    .collection_two_artist_pfp:hover,
+    .collection_three_artist_pfp:hover{
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    .pfp_link{
+        cursor:default;
+    }
+}

@@ -1,0 +1,163 @@
+@media only screen and (max-width: 52.125rem) {
+
+    .users_section{
+        margin-inline: auto;
+        width: 19.6875rem;
+        height: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .user{
+        text-decoration: none;
+        height: 6.25rem;
+        width: 19.6875rem;
+        background-color: var(--background---secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.25rem;
+    }
+
+    .each_user{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .user_details{
+        height: 3.625rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .key{
+        height: 1.875rem;
+        width: 1.875rem;
+        background-color: var(--background);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--background---secondary);
+        position: absolute;
+        z-index: 2;
+        margin: -3rem 0rem 0rem -0.5rem ;
+    }
+
+    .avatar_img{
+        width: 3.75rem;
+        height: 3.75rem;
+        margin-right: 1rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .username{
+        font-size: var(--font-size-l);
+        color: white;
+    }
+
+    .total_sales{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: hsl(60, 0%, 52%);
+    }
+
+    .sales_value{
+        margin-left: 0.5rem;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width: 52.125rem) {
+
+    .users_section{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .user{
+        text-decoration: none;
+        cursor: pointer;
+        margin-inline: auto;
+        height: 6.25rem;
+        width: 43.125rem;
+        background-color: var(--background---secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.25rem;
+        transition: ease-in-out 0.2s;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .user:hover{
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    .each_user{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .user_details{
+        height: 3.625rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .key{
+        height: 1.875rem;
+        width: 1.875rem;
+        background-color: var(--background);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--background---secondary);
+        position: absolute;
+        z-index: 2;
+        margin: -3rem 0rem 0rem -0.5rem ;
+    }
+
+    .avatar_img{
+        width: 3.75rem;
+        height: 3.75rem;
+        margin-right: 1rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .username{
+        font-size: var(--font-size-l);
+        color: white;
+    }
+
+    .total_sales{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: hsl(60, 0%, 52%);
+    }
+
+    .sales_value{
+        margin-left: 0.5rem;
+        color: white;
+    }
+}

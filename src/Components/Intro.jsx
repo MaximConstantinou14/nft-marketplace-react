@@ -1,13 +1,13 @@
-import React from 'react'
-import "../CSS/intro.css"
-import "../CSS/variables.css"
+import React from 'react';
+import "../CSS/intro.css";
+import "../CSS/variables.css";
 
 // Importing Images from assets
-import introArt from "../Assets/Images/imageplaceholder.svg"
-import animaKidPfp from "../Assets/Images/animakid_pfp.png"
+import introArt from "../Assets/Images/imageplaceholder.svg";
+import animaKidPfp from "../Assets/Images/animakid_pfp.png";
 
 // Importing icons from react icons
-import {TbRocket} from "react-icons/tb"
+import {TbRocket} from "react-icons/tb";
 
 const Intro = () => {
   return (
